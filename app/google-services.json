@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "127076388457",
+    "firebase_url": "https://responderzero-e561c.firebaseio.com",
+    "project_id": "responderzero-e561c",
+    "storage_bucket": "responderzero-e561c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127076388457:android:f7743f85514e21d5",
+        "android_client_info": {
+          "package_name": "ca.induja.responderzero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127076388457-8fdclrmfltaf00g9lbdga3fpplbc8qk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.induja.responderzero",
+            "certificate_hash": "0797C78BF11A81E6446DD198C73241C72C1CC8E2"
+          }
+        },
+        {
+          "client_id": "127076388457-h210im0fht6c3utsqc2hkrfr028nfqk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxxqOVBFqWZBLLE-Wiq2CFX0JHb56XmJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127076388457-h210im0fht6c3utsqc2hkrfr028nfqk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
