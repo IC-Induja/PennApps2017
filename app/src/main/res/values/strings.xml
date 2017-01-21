@@ -21,4 +21,15 @@
         providing email completions."
     </string>
     <string name="title_activity_all_emergency">AllEmergencyActivity</string>
+
+    <!-- Strings related to User Skills -->
+    <string name="action_settings">Settings </string>
+    <string name="self_destruct">Destroy</string>
+    <string name="cpr">CPR</string>
+    <string name="choking">Choking</string>
+    <string name="aed">AED</string>
+    <string name="bleeding">Bleeding Control</string>
+    <string name="naloxone">Naloxone Administration</string>
+    <string name="epinephrine">Epinephrine Administration</string>
+    <string name="next">Next</string>
 </resources>
