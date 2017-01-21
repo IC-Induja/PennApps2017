@@ -2,7 +2,11 @@
     <string name="app_name">ResponderZero</string>
 
     <!-- Strings related to AllEmergencyActivity -->
-    <string name="emergencies"
+    <string name="all_emergency_title">Emergencies</string>
+    <string name="time">Time</string>
+    <string name="distance">Distance</string>
+    <string name="status">Status</string>
+    <string name="message">Message</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
