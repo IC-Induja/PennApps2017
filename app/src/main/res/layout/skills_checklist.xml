@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your skills"
+        android:paddingBottom="6dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/cpr"
+        android:onClick="selfDestruct"
+        android:paddingBottom="6dp"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/aed"
+        android:onClick="selfDestruct"
+        android:elevation="0dp"
+        android:paddingBottom="6dp" />
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/naloxone"
+        android:onClick="selfDestruct"
+        android:paddingBottom="6dp"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/choking"
+        android:onClick="selfDestruct"
+        android:paddingBottom="6dp"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/bleeding"
+        android:onClick="selfDestruct"
+        android:paddingBottom="6dp"/>
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/epinephrine"
+        android:onClick="selfDestruct"
+        android:paddingBottom="6dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/next"
+        android:paddingTop="6dp"
+        android:elevation="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="200dp" />
 </LinearLayout>
