@@ -8,11 +8,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select your skills"
+        android:text="@string/select"
         android:paddingBottom="6dp"
-        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <CheckBox
+        android:id="@+id/cpr_checkbox"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/cpr"
@@ -20,14 +21,15 @@
         android:paddingBottom="6dp"/>
 
     <CheckBox
+        android:id="@+id/aed_checkbox"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/aed"
         android:onClick="selfDestruct"
-        android:elevation="0dp"
         android:paddingBottom="6dp" />
 
     <CheckBox
+        android:id="@+id/naloxone_checkbox"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/naloxone"
@@ -35,6 +37,7 @@
         android:paddingBottom="6dp"/>
 
     <CheckBox
+        android:id="@+id/choking_checkbox"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/choking"
@@ -42,6 +45,7 @@
         android:paddingBottom="6dp"/>
 
     <CheckBox
+        android:id="@+id/bleeding_checkbox"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/bleeding"
@@ -49,6 +53,7 @@
         android:paddingBottom="6dp"/>
 
     <CheckBox
+        android:id="@+id/epinephrine_checkbox"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/epinephrine"
@@ -60,7 +65,6 @@
         android:layout_height="50dp"
         android:text="@string/next"
         android:paddingTop="6dp"
-        android:elevation="0dp"
         android:layout_marginBottom="0dp"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
